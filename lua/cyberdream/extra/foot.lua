@@ -25,10 +25,8 @@ function M.generate(variant)
     local t = format_colors(colors[variant])
     local template = [==[
 # Cyberdream theme for foot terminal
-[cursor]
-color=      ${bg} ${fg}
-
-[colors]
+[colors-dark]
+cursor=     ${bg} ${fg}
 background= ${bg}
 foreground= ${fg}
 # The  eight basic ANSI colors (Black, Red, Green, Yellow, Blue, Magenta, Cyan, White)
